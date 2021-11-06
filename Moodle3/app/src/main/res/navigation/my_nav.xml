@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/fisrtFragment">
+
+    <fragment
+        android:id="@+id/fisrtFragment"
+        android:name="vn.edu.usth.moodle.HomePageFragment"
+        android:label="fragment_fisrt"
+        tools:layout="@layout/fragment_home_page" />
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="vn.edu.usth.moodle.InformationClientFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_information_client" />
+    <fragment
+        android:id="@+id/thirdFragment"
+        android:name="vn.edu.usth.moodle.MyCoursesFragment"
+        android:label="fragment_third"
+        tools:layout="@layout/fragment_my_courses" />
+    <fragment
+        android:id="@+id/fouthFragment"
+        android:name="vn.edu.usth.moodle.MenuFragment"
+        android:label="fragment_third"
+        tools:layout="@layout/fragment_menu" />
+</navigation>
