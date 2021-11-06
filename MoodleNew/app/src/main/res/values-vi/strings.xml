@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Moodle</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hp_address">Địa Chỉ: Tòa nhà A21, 18 Hoàng Quốc Việt, Cầu Giấy, Hà Nội.</string>
+    <string name="hp_telephone">Điện Thoại: +84-24 37 91 69 60</string>
+    <string name="hp_email">Email: officeusth@usth.edu.vn</string>
+    <string name="hp_facebook">Facebook: Đại Học Khoa Học và Công Nghệ Hà Nội - USTH</string>
+    <string name="menu_info">Thông Tin</string>
+    <string name="menu_grade">Điểm Số</string>
+    <string name="menu_file">Thư Mục</string>
+    <string name="menu_web">Website</string>
+    <string name="menu_help">Hỗ Trợ</string>
+    <string name="menu_prefer">Tham Khảo</string>
+    <string name="menu_settings">Cài Đặt</string>
+    <string name="menu_logout">Đăng Xuất</string>
+    <string name="if_fname">Chính</string>
+    <string name="if_id">ID: BI10-888</string>
+    <string name="if_name">Họ và Tên: Hiệu Quốc Chính</string>
+    <string name="if_dob">Ngày Sinh: 18/10/2001</string>
+    <string name="if_phone">Điện Thoại: 09854657231</string>
+    <string name="if_address">Địa Chỉ: Hà Nội</string>
+    <string name="if_major">Chuyên Ngành: Thông tin và Công nghệ</string>
+    <string name="if_class">Lớp: B11</string>
+    <string name="mc_mad"><a href="https://moodle.usth.edu.vn/course/view.php?id=305">Mobile Application Development</a></string>
+    <string name="mc_wad"><a href="https://moodle.usth.edu.vn/course/view.php?id=298">Web Application Development</a></string>
+    <string name="mc_mladm"><a href="https://moodle.usth.edu.vn/course/view.php?id=426">Machine Learning and Data Mining</a></string>
+    <string name="mc_ad"><a href="https://moodle.usth.edu.vn/course/view.php?id=491">Advanced Databases</a></string>
+    <string name="Home">Trang chủ</string>
+    <string name="Person">Cá nhân</string>
+    <string name="Menu">Menu</string>
+    <string name="MyCourses">Môn học của tôi</string>
+    <string name="Search">Tìm kiếm</string>
+    <string name="Setting">Cài đặt</string>
+    <string name="Notification">Thông báo</string>
+    <string name="Refresh">Làm mới</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Tin Nhắn</string>
+    <string name="sync_header">Đồng bộ hóa</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Chữ ký của bạn</string>
+    <string name="reply_title">Hành động trả lời mặc định</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Đồng bộ hóa email định kỳ</string>
+    <string name="attachment_title">Tải xuống tệp đính kèm</string>
+    <string name="attachment_summary_on">Tự động tải xuống tệp đính kèm cho các email đến
+    </string>
+    <string name="attachment_summary_off">Chỉ tải xuống tệp đính kèm khi được yêu cầu thủ công</string>
+    <!-- title_activity -->
+    <string name="title_activity_notification">Thông báo</string>
+    <string name="title_activity_settings">Cài đặt</string>
+    <string name="AcademicyearThreeYears">Năm học: Năm ba</string>
+
+    <!-- frag notification -->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="notifications_header">USTH thông báo</string>
+    <string name="notifications_date">18/10 - 14:00</string>
+    <string name="notifications_1">Chào các em,<br>
+
+Như các bạn đã biết, chúng tôi nhiệt liệt chào mừng Giáo sư Jean \ -Marc LAVEST đến với gia đình USTH với tư cách là Hiệu trưởng mới của chúng tôi từ ngày 1 tháng 10 năm 2021.
+                    Trong bức thư ngỏ mà anh ấy viết cho bạn, anh ấy bày tỏ niềm tin mạnh mẽ vào cuộc sống chuyên nghiệp của sinh viên hiện tại và mong đợi sự phát triển của các hiệp hội trong trường đại học của chúng ta.<br>
+           Vui lòng tìm Thư ngỏ từ Hiệu trưởng Hiệu trưởng của chúng tôi trong tệp đính kèm.<br>
+
+        Xin chân trọng.</br></br></br></string>
+    <string name="notifications_header2">Moodle thông báo</string>
+    <string name="notifications_date2">17/10 - 20:00</string>
+    <string name="notifications_2">Thông báo: Nâng cấp hệ thống Moodle vào ngày 17/10/2021 và thời gian ngừng hoạt động của dịch vụ <br>
+        Moodle sẽ cập nhật hệ thống từ 20:00 đến 22:00 ngày 17/10/2021 - Chủ nhật, do đó dịch vụ không khả dụng. Hệ thống sẽ hoạt động trở lại sau khoảng thời gian này.
+    </br></string>
+    <string name="calendaract">Calendar</string>
+    <string name="back"><![CDATA[<-]]></string>
+    <string name="forward"><![CDATA[->]]></string>
+
+</resources>

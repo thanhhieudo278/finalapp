@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/Search"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/setting"
+        android:title="@string/Setting"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/refresh"
+        android:title="@string/Refresh"
+        android:icon="@drawable/ic_refresh"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/notification"
+        android:title="@string/Notification"
+        app:showAsAction="never"
+        />
+
+</menu>

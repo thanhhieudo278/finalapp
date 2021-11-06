@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical"
+    >
+
+    <!-- TODO: TRANG NÀY TRANG ĐẦU TIÊN -->
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="120dp"
+        android:layout_margin="2dp"
+        android:src="@drawable/homeimg"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:background="#ffffff">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_folder"/>
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="30dp"
+                android:text="My course"
+                android:textSize="22dp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_next"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="#ffffff">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_school"/>
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="30dp"
+                android:text="List course"
+                android:textSize="22dp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_next"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

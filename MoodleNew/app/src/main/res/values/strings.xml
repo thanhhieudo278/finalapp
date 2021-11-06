@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Moodle</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hp_address">Address: A21 Building, 18 Hoang Quoc Viet, Cau Giay, Ha Noi.</string>
+    <string name="hp_telephone">Telephone: +84-24 37 91 69 60</string>
+    <string name="hp_email">Email: officeusth@usth.edu.vn</string>
+    <string name="hp_facebook">Facebook: Đại Học Khoa Học và Công Nghệ Hà Nội - USTH</string>
+    <string name="menu_info">Information</string>
+    <string name="menu_grade">Grade</string>
+    <string name="menu_file">Files</string>
+    <string name="menu_web">Website</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_prefer">References</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_logout">Log out</string>
+    <string name="if_fname">Chính</string>
+    <string name="if_id">ID: BI10-888</string>
+    <string name="if_name">Full name: Hiệu Quốc Chính</string>
+    <string name="if_dob">Date of birth: 18/10/2001</string>
+    <string name="if_phone">Phone: 09854657231</string>
+    <string name="if_address">Address: Hà Nội</string>
+    <string name="if_major">Major: Information and Technology</string>
+    <string name="if_class">Class: B11</string>
+    <string name="mc_mad"><a href="https://moodle.usth.edu.vn/course/view.php?id=305">Mobile Application Development</a></string>
+    <string name="mc_wad"><a href="https://moodle.usth.edu.vn/course/view.php?id=298">Web Application Development</a></string>
+    <string name="mc_mladm"><a href="https://moodle.usth.edu.vn/course/view.php?id=426">Machine Learning and Data Mining</a></string>
+    <string name="mc_ad"><a href="https://moodle.usth.edu.vn/course/view.php?id=491">Advanced Databases</a></string>
+    <string name="Home">Home</string>
+    <string name="Person">Person</string>
+    <string name="Menu">Menu</string>
+    <string name="MyCourses">My Courses</string>
+    <string name="Search">Search</string>
+    <string name="Setting">Setting</string>
+    <string name="Notification">Notification</string>
+    <string name="Refresh">Refresh</string>
+
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <!-- title_activity -->
+    <string name="title_activity_notification">Notification</string>
+    <string name="title_activity_settings">Settings</string>
+
+
+    <string name="AcademicyearThreeYears">Academic year: Three Years</string>
+
+    <!-- frag notification -->
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="notifications_header">USTH Notifications</string>
+    <string name="notifications_date">18/10 - 14:00</string>
+    <string name="notifications_1">Dear students,<br>
+            As you all know, we warmly welcomed Prof. Jean\-Marc LAVEST to the USTH family as our new Principal Rector from October 1st, 2021.
+                    In the Open letter he wrote to you, he expressed his strong belief in current students\' professional life, and expected the development of associations in our university.<br>
+            Please find the Open letter from our Principal Rector in the attachment.<br>
+
+        Best regards.</br></br></br></string>
+    <string name="notifications_header2">Moodle Notifications</string>
+    <string name="notifications_date2">17/10 - 20:00</string>
+    <string name="notifications_2">Notification: Moodle system upgrade on 17/10/2021 and downtime of services <br>
+        Moodle will have system update from 20:00 to 22:00 17/10/2021 - Sunday which caused the unavailability of services. Systems will be back online afther this duration.
+    </br></string>
+    <string name="title_activity_calendar">CalendarActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="calendaract">Calendar</string>
+    <string name="back"><![CDATA[<-]]></string>
+    <string name="forward"><![CDATA[->]]></string>
+
+
+</resources>

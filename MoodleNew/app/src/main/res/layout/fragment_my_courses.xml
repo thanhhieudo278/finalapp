@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eeeeee"
+        >
+
+        <!-- TODO: Trang này là các môn học để vuốt vuốt
+        TODO: sang ngang và có scroll view-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="196dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/bgg"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="140dp"
+                    android:background="#c5e1fa" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="50dp"
+                    android:background="#e7f4f4"
+                    android:text="@string/mc_mad"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="192dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/bgg"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="140dp"
+                    android:background="#c5c6fa" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="50dp"
+                    android:background="#e7f4f4"
+                    android:text="@string/mc_wad"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/bgg"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="140dp"
+                    android:background="#fff9a1" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="50dp"
+                    android:background="#e7f4f4"
+                    android:text="@string/mc_mladm"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="204dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/bgg"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="140dp"
+                    android:background="#ffa8a1" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="50dp"
+                    android:background="#e7f4f4"
+                    android:text="@string/mc_ad"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
