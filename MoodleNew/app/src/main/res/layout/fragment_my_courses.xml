@@ -24,19 +24,22 @@
                 android:layout_height="196dp"
                 android:layout_margin="20dp"
                 android:background="@drawable/bgg"
+                android:id="@+id/mobileapp"
+                android:clickable="true"
                 android:orientation="vertical">
 
-                <TextView
-                    android:layout_width="350dp"
-                    android:layout_height="140dp"
-                    android:background="#c5e1fa" />
+                    <TextView
+                        android:layout_width="350dp"
+                        android:layout_height="140dp"
+                        android:background="#c5e1fa" />
 
-                <TextView
-                    android:layout_width="350dp"
-                    android:layout_height="50dp"
-                    android:background="#e7f4f4"
-                    android:text="@string/mc_mad"
-                    android:textSize="15dp" />
+                    <TextView
+
+                        android:layout_width="350dp"
+                        android:layout_height="50dp"
+                        android:background="#e7f4f4"
+                        android:text="@string/mc_mad"
+                        android:textSize="15dp" />
             </LinearLayout>
 
             <LinearLayout
@@ -44,6 +47,8 @@
                 android:layout_height="192dp"
                 android:layout_margin="20dp"
                 android:background="@drawable/bgg"
+                android:id="@+id/webapp"
+                android:clickable="true"
                 android:orientation="vertical">
 
                 <TextView

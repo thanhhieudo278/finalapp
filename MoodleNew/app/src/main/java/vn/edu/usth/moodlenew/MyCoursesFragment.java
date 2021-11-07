@@ -1,12 +1,16 @@
 package vn.edu.usth.moodlenew;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -23,6 +27,9 @@ public class MyCoursesFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+    private LinearLayout mobileapp;
+    private LinearLayout webapp;
+
 
     public MyCoursesFragment() {
         // Required empty public constructor
@@ -58,7 +65,42 @@ public class MyCoursesFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+        // code clickable for courses
+        View view = inflater.inflate(R.layout.fragment_my_courses, container, false);
+        mobileapp = (LinearLayout) view.findViewById(R.id.mobileapp);
+        webapp = (LinearLayout) view.findViewById(R.id.webapp);
+
+
+
+
+        mobileapp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.e("Onclick","Onclick");
+
+                Intent intent = new Intent(getActivity(), MyCoursesFragment_MobileAppActivity.class);
+                startActivity(intent);
+                
+            }
+        });
+
+        webapp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.e("Onclick","Onclick");
+
+                Intent intent = new Intent(getActivity(), MyCoursesFragment_WebAppActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_my_courses, container, false);
+        return view;
+
     }
+
+
+
 }

@@ -11,19 +11,29 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         >
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calendar"
+            android:textSize="30dp"></TextView>
+
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_marginBottom="20dp"
+            android:background="#DDDDDD"
             android:layout_marginTop="20dp">
             <com.google.android.material.button.MaterialButton
-                android:layout_width="0dp"
+                android:layout_width="10dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="0.5"
                 android:text="@string/back"
-                android:textColor="@color/blue"
-                android:background="@null"
+                android:textColor="#FF9933"
+
                 android:textStyle="bold"
                 android:onClick="previousMonthAction"
                 android:textSize="20sp"
@@ -37,15 +47,14 @@
                 android:text="Feb 2021"
                 android:textSize="20sp"
                 android:textAlignment="center"
-                android:textColor="@color/black"/>
+                android:textColor="#FF9933"/>
 
             <com.google.android.material.button.MaterialButton
-                android:layout_width="0dp"
+                android:layout_width="10dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="0.5"
                 android:text="@string/forward"
-                android:textColor="@color/blue"
-                android:background="@null"
+                android:textColor="#FF9933"
                 android:textStyle="bold"
                 android:onClick="nextMonthAction"
                 android:textSize="20sp"
@@ -56,6 +65,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#DDDDDD"
             android:orientation="horizontal">
 
             <TextView
@@ -126,6 +136,7 @@
 
 
         <androidx.recyclerview.widget.RecyclerView
+            android:background="#DDDDDD"
             android:id="@+id/calendarRecyclerView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>

@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "574839626899",
+    "project_id": "moodledev2021",
+    "storage_bucket": "moodledev2021.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574839626899:android:88c86f2a47803b859fc166",
+        "android_client_info": {
+          "package_name": "vn.edu.usth.moodlenew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574839626899-9nm9qepkjbsm6iqcqn5g71cln5caod65.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6rgBEr356vRaEE2X_EpptXmfI6O5DZhE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574839626899-9nm9qepkjbsm6iqcqn5g71cln5caod65.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574839626899:android:189e0ef35bffb2d59fc166",
+        "android_client_info": {
+          "package_name": "vn.edu.usth.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574839626899-9nm9qepkjbsm6iqcqn5g71cln5caod65.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6rgBEr356vRaEE2X_EpptXmfI6O5DZhE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574839626899-9nm9qepkjbsm6iqcqn5g71cln5caod65.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574839626899:android:0f688d15ea214fca9fc166",
+        "android_client_info": {
+          "package_name": "vn.edu.usth.trytogetapi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574839626899-9nm9qepkjbsm6iqcqn5g71cln5caod65.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6rgBEr356vRaEE2X_EpptXmfI6O5DZhE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574839626899-9nm9qepkjbsm6iqcqn5g71cln5caod65.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
