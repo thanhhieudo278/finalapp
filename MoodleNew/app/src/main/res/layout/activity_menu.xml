@@ -65,6 +65,8 @@
                 android:layout_marginHorizontal="15dp"
                 android:layout_marginVertical="5dp"
                 android:orientation="horizontal"
+                android:id="@+id/inforr"
+                android:clickable="true"
                 android:background="#ffffff">
 
                 <ImageView
@@ -229,6 +231,8 @@
                 android:layout_marginHorizontal="15dp"
                 android:orientation="horizontal"
                 android:layout_marginVertical="40dp"
+                android:id="@+id/loginn"
+                android:clickable="true"
                 android:background="#ffffff">
 
                 <ImageView

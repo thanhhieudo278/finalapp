@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.MoodleNew">
-
+        <activity
+            android:name=".InformationClientActivity"
+            android:exported="true" />
         <activity
             android:name=".MyCoursesFragment_WebAppActivity"
             android:exported="true" />

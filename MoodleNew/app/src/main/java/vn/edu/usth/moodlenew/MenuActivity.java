@@ -5,8 +5,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -17,6 +22,31 @@ public class MenuActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
+
+        LinearLayout loginn = (LinearLayout)findViewById(R.id.loginn);
+        loginn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.e("Onclick","Onclick");
+
+                Intent myIntent = new Intent(MenuActivity.this, LoginPage.class);
+                MenuActivity.this.startActivity(myIntent);
+
+            }
+        });
+
+        LinearLayout inforr = (LinearLayout)findViewById(R.id.inforr);
+        inforr.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.e("Onclick","Onclick");
+
+                Intent myIntent = new Intent(MenuActivity.this, InformationClientActivity.class);
+                MenuActivity.this.startActivity(myIntent);
+
+            }
+        });
+
 
         //initialize and Assign Variables
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
@@ -75,4 +105,15 @@ public class MenuActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+
+
+
+
+
+
+
+
+
+
 }
