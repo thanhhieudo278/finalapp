@@ -1,12 +1,15 @@
 package vn.edu.usth.moodlenew;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -58,7 +61,39 @@ public class HomeFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+        // code clickable for courses
+        View view = inflater.inflate(R.layout.fragment_home, container, false);
+        LinearLayout bachelor = (LinearLayout) view.findViewById(R.id.bachelor);
+        LinearLayout master = (LinearLayout) view.findViewById(R.id.master);
+
+
+
+
+        bachelor.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.e("Onclick","Onclick");
+
+                Intent intent = new Intent(getActivity(), HomeFragment_Bachelor.class);
+                startActivity(intent);
+
+            }
+        });
+
+        master.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.e("Onclick","Onclick");
+
+                Intent intent = new Intent(getActivity(), HomeFragment_Master.class);
+                startActivity(intent);
+
+            }
+        });
+
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false);
+        return view;
+
     }
 }

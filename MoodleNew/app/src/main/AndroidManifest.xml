@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MoodleNew">
         <activity
+            android:name=".HomeFragment_Master"
+            android:exported="true" />
+        <activity
+            android:name=".HomeFragment_Bachelor"
+            android:exported="true" />
+        <activity
             android:name=".InformationClientActivity"
             android:exported="true" />
         <activity

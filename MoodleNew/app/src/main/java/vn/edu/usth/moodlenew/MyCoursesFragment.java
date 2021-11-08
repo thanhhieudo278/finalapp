@@ -27,8 +27,7 @@ public class MyCoursesFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
-    private LinearLayout mobileapp;
-    private LinearLayout webapp;
+
 
 
     public MyCoursesFragment() {
@@ -68,8 +67,8 @@ public class MyCoursesFragment extends Fragment {
 
         // code clickable for courses
         View view = inflater.inflate(R.layout.fragment_my_courses, container, false);
-        mobileapp = (LinearLayout) view.findViewById(R.id.mobileapp);
-        webapp = (LinearLayout) view.findViewById(R.id.webapp);
+        LinearLayout mobileapp = (LinearLayout) view.findViewById(R.id.mobileapp);
+        LinearLayout webapp = (LinearLayout) view.findViewById(R.id.webapp);
 
 
 
