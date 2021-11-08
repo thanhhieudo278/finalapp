@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="vn.edu.usth.moodlenew">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -14,15 +16,18 @@
             android:exported="true" />
         <activity
             android:name=".HomeFragment_Bachelor"
+            android:label="@string/Bachelor"
             android:exported="true" />
         <activity
             android:name=".InformationClientActivity"
+            android:label="@string/MyInformation"
             android:exported="true" />
         <activity
             android:name=".MyCoursesFragment_WebAppActivity"
             android:exported="true" />
         <activity
             android:name=".MyCoursesFragment_MobileAppActivity"
+            android:label="@string/MobileApp"
             android:exported="true" />
         <activity
             android:name=".RegistrationPage"

@@ -16,56 +16,59 @@
             android:layout_marginLeft="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Calendar"
-            android:textSize="30dp"></TextView>
+            android:text="@string/calendaract"
+            android:textSize="30dp"/>
 
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"
-            android:background="#DDDDDD"
-            android:layout_marginTop="20dp">
+
+            android:orientation="horizontal">
+
             <com.google.android.material.button.MaterialButton
                 android:layout_width="10dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.5"
-                android:text="@string/back"
-                android:textColor="#FF9933"
-
-                android:textStyle="bold"
                 android:onClick="previousMonthAction"
+                android:text="@string/back"
+
+                android:textColor="#FF9933"
                 android:textSize="20sp"
+                android:textStyle="bold"
                 tools:ignore="OnClick" />
 
             <TextView
                 android:id="@+id/monthYearTV"
                 android:layout_width="0dp"
-                android:layout_weight="2"
                 android:layout_height="wrap_content"
+                android:layout_weight="2"
                 android:text="Feb 2021"
-                android:textSize="20sp"
                 android:textAlignment="center"
-                android:textColor="#FF9933"/>
+                android:textColor="#FF9933"
+                android:textSize="20sp" />
 
             <com.google.android.material.button.MaterialButton
                 android:layout_width="10dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.5"
+                android:onClick="nextMonthAction"
                 android:text="@string/forward"
                 android:textColor="#FF9933"
-                android:textStyle="bold"
-                android:onClick="nextMonthAction"
                 android:textSize="20sp"
+                android:textStyle="bold"
                 tools:ignore="OnClick" />
 
         </LinearLayout>
 
+
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#DDDDDD"
+
             android:orientation="horizontal">
 
             <TextView
@@ -131,15 +134,29 @@
                 android:textAlignment="center"
                 android:textSize="16sp"/>
 
-
         </LinearLayout>
 
+        <RelativeLayout
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:background="#DDDDDD"
-            android:id="@+id/calendarRecyclerView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+            <ImageView
+                android:id="@+id/asynctask"
+                style="@style/BackGroundImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerHorizontal="true"
+
+                tools:ignore="ContentDescription" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/calendarRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </RelativeLayout>
 
 
     </LinearLayout>

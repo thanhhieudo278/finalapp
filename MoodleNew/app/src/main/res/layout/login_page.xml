@@ -14,7 +14,7 @@
         android:layout_marginRight="4pt"
         android:layout_marginLeft="4pt"
         android:layout_marginTop="10pt"
-        android:hint="Username"/>
+        android:hint="@string/Username"/>
     <EditText
         android:id="@+id/password"
         android:layout_width="match_parent"
@@ -22,7 +22,7 @@
         android:layout_marginTop="10pt"
         android:layout_marginLeft="4pt"
         android:layout_marginRight="4pt"
-        android:hint="Password"/>
+        android:hint="@string/Password"/>
     <Button
         android:id="@+id/btn_login"
         android:layout_width="match_parent"
@@ -30,7 +30,7 @@
         android:layout_marginRight="4pt"
         android:layout_marginLeft="4pt"
         android:layout_marginTop="10pt"
-        android:text="LOG IN"/>
+        android:text="@string/LOGIN"/>
     <Button
         android:id="@+id/btn_signup"
         android:layout_width="match_parent"
@@ -38,7 +38,7 @@
         android:layout_marginRight="4pt"
         android:layout_marginLeft="4pt"
         android:layout_marginTop="10pt"
-        android:text="SIGN UP"/>
+        android:text="@string/SIGNUP"/>
 
 
 </LinearLayout>

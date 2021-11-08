@@ -85,6 +85,17 @@
     <string name="calendaract">Calendar</string>
     <string name="back"><![CDATA[<-]]></string>
     <string name="forward"><![CDATA[->]]></string>
+    <string name="MyInformation">My Information</string>
+    <string name="Bachelor">Bachelor</string>
+    <string name="MobileApp">Mobile App Development</string>
+    <string name="LOGIN">LOG IN</string>
+    <string name="SIGNUP">SIGN UP</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Coursecategories">Course categories</string>
+    <string name="Master">Master</string>
+    <string name="PhDACADEMICRESOURCES">PhD-ACADEMIC RESOURCES</string>
+    <string name="Supportingdepartment">Supporting department</string>
 
 
 </resources>

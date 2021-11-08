@@ -69,8 +69,19 @@ Như các bạn đã biết, chúng tôi nhiệt liệt chào mừng Giáo sư J
     <string name="notifications_2">Thông báo: Nâng cấp hệ thống Moodle vào ngày 17/10/2021 và thời gian ngừng hoạt động của dịch vụ <br>
         Moodle sẽ cập nhật hệ thống từ 20:00 đến 22:00 ngày 17/10/2021 - Chủ nhật, do đó dịch vụ không khả dụng. Hệ thống sẽ hoạt động trở lại sau khoảng thời gian này.
     </br></string>
-    <string name="calendaract">Calendar</string>
+    <string name="calendaract">Lịch</string>
     <string name="back"><![CDATA[<-]]></string>
     <string name="forward"><![CDATA[->]]></string>
+    <string name="MyInformation">Thông tin của tôi</string>
+    <string name="Bachelor" >Hệ cử nhân</string>
+    <string name="MobileApp">Mobile App Development</string>
+    <string name="SIGNUP">ĐĂNG KÝ</string>
+    <string name="LOGIN">ĐĂNG NHẬP</string>
+    <string name="Username">Tài Khoản</string>
+    <string name="Password">Mật Khẩu</string>
+    <string name="Coursecategories">Các hạng mục khóa học</string>
+    <string name="Master">Master</string>
+    <string name="PhDACADEMICRESOURCES">Tài nguyên học thuật-Tiến sĩ</string>
+    <string name="Supportingdepartment">Bộ phận hỗ trợ</string>
 
 </resources>

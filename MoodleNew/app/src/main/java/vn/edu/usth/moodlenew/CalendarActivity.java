@@ -12,6 +12,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -34,6 +35,9 @@ public class CalendarActivity extends AppCompatActivity implements CalendarAdapt
         initWidgets();
         selectedDate = LocalDate.now();
         setMonthView();
+
+        new DownloadImageTask((ImageView)findViewById(R.id.asynctask))
+                .execute("https://usth.edu.vn/uploads/chuong-trinh/2017_01/logo-moi_2.png");
 
 
         //initialize and Assign Variables

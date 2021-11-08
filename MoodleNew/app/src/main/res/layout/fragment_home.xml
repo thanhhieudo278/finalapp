@@ -38,7 +38,7 @@
             <TextView
                 android:layout_width="280dp"
                 android:layout_height="30dp"
-                android:text="Course categories"
+                android:text="@string/Coursecategories"
                 android:textSize="22dp"
                 android:textStyle="bold"/>
 
@@ -63,7 +63,7 @@
             <TextView
                 android:layout_width="280dp"
                 android:layout_height="30dp"
-                android:text="Bachelor"
+                android:text="@string/Bachelor"
                 android:textSize="22dp"
                 android:textStyle="bold"/>
         </LinearLayout>
@@ -86,7 +86,7 @@
             <TextView
                 android:layout_width="280dp"
                 android:layout_height="30dp"
-                android:text="Master"
+                android:text="@string/Master"
                 android:textSize="22dp"
                 android:textStyle="bold"/>
         </LinearLayout>
@@ -107,7 +107,7 @@
             <TextView
                 android:layout_width="300dp"
                 android:layout_height="30dp"
-                android:text="PhD-ACADEMIC RESOURCES"
+                android:text="@string/PhDACADEMICRESOURCES"
                 android:textSize="22dp"
                 android:textStyle="bold"/>
         </LinearLayout>
@@ -128,7 +128,7 @@
             <TextView
                 android:layout_width="280dp"
                 android:layout_height="30dp"
-                android:text="Supporting department"
+                android:text="@string/Supportingdepartment"
                 android:textSize="22dp"
                 android:textStyle="bold"/>
         </LinearLayout>
