@@ -35,7 +35,7 @@
                 android:onClick="previousMonthAction"
                 android:text="@string/back"
 
-                android:textColor="#FF9933"
+                android:textColor="@color/black"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 tools:ignore="OnClick" />
@@ -56,7 +56,7 @@
                 android:layout_weight="0.5"
                 android:onClick="nextMonthAction"
                 android:text="@string/forward"
-                android:textColor="#FF9933"
+                android:textColor="@color/black"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 tools:ignore="OnClick" />

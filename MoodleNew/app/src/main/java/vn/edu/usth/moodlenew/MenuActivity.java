@@ -32,6 +32,7 @@ public class MenuActivity extends AppCompatActivity {
                 // sign out with firebase//
                 FirebaseAuth.getInstance().signOut();
                 Intent myIntent = new Intent(MenuActivity.this, LoginPage.class);
+                myIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 MenuActivity.this.startActivity(myIntent);
 
             }
