@@ -11,6 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.MoodleNew">
+
         <activity
             android:name=".HomeFragment_Master"
             android:exported="true" />
@@ -32,15 +33,7 @@
         <activity
             android:name=".RegistrationPage"
             android:exported="false" />
-        <activity
-            android:name=".LoginPage"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity
             android:name=".SettingsActivity"
             android:exported="true"
@@ -57,6 +50,14 @@
         <activity
             android:name=".MainActivity"
             android:exported="true" />
+        <activity
+            android:name=".LoginPage"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

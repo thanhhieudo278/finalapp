@@ -85,5 +85,6 @@ Như các bạn đã biết, chúng tôi nhiệt liệt chào mừng Giáo sư J
     <string name="Supportingdepartment">Bộ phận hỗ trợ</string>
 
     <string name="server_client_id">YOUR_SERVER_CLIENT_ID</string>
+    <string name="Dashboard">Bảng điều khiển</string>
 
 </resources>

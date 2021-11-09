@@ -98,5 +98,6 @@
     <string name="Supportingdepartment">Supporting department</string>
 
     <string name="server_client_id">YOUR_SERVER_CLIENT_ID</string>
+    <string name="Dashboard">Dashboard</string>
 
 </resources>
